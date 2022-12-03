@@ -1,0 +1,38 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/head.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(123, 91, 136, 0.973);
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(242, 217, 255,0.5);
+}
+
+.foot{
+    margin-top: 0px;
+    width: 100vw;
+    height: 100px;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgba(153,130,172,0.3);
+}
+.foot p{
+    line-height: 12px;
+    color: rgb(49, 51, 41);
+}

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+.hw2table {
+    margin: 0 auto;
+    width: 60vw;
+    border:3ch;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: 'свт╡';
+}
+table caption{
+    font-size: 30px;
+    margin: 1em 0;  
+    font-family:'свт╡';
+    font-weight: bold;
+    color: rgb(18, 0, 105);
+}
+
+th, td{
+    width: 10vw;
+    border: 1px solid #999;
+    text-align: center;
+    padding: 20px 0;
+}
+table tbody {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(18, 0, 105);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table .th{
+    background-color: rgba(165,142,174,0.9);
+    color: rgba(253,242,197);
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgba(247, 146, 178, 0.5);
+}
+
+table tbody tr:hover{
+    background-color: rgba(161, 214, 250, 0.664);
+}
+
+table tbody tr td:first-child{
+    color: rgb(253,242,197);
+}
+
+table tfoot tr td{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.dp1{
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    border-top: 2px solid rgba(190, 190, 190, 0.774);
+    border-left: 2px solid rgba(173, 173, 173, 0.651);
+    border-bottom: 2px solid rgba(209, 209, 209, 0.664);
+    border-right: 2px solid rgba(255, 255, 255, 0.692);
+    backdrop-filter: blur(10px);
+    background: rgba(202,158,174, 0.24);
+}
+.zt{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(18, 0, 105);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
